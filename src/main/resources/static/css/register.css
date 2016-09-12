@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Calibri);
+
+/*-------------Register--------------*/
+
+.register-container{
+	position:relative;
+	top:50px;
+	height: 400px;
+	width: 250px;
+	border-style: solid;
+	border-width: 2px;
+}
+
+.register .form-register{
+	font-family: 'Calibri';
+}
+
+.registerbtn{
+	position: relative;
+	top: 20px;
+    background-color: #000000;
+    color: white;
+    padding: 16px;
+    line-height: 2px;
+    font-size: 20px;
+    font-family:'Calibri';
+    border: none;
+    cursor: pointer;
+    wordwrap: normal;
+}
+
+.registerbtn:hover{
+	transition: 1s;
+	color: darkgrey;	
+}
