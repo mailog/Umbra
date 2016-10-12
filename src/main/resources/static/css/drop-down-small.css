@@ -7,17 +7,7 @@
     url("//db.onlinewebfonts.com/t/b4c2d6f691dc323c5db3fd177ea885b5.svg#AlternateGotNo1D") format("svg");
 }
 
-/*-----------STATIC-----------*/
-/*----------------------------*/
-
-/*------------body--------------*/
-
-body {
-    background-color: #F1F1F1;
-}
-/*------------------------------*/
-
-/*-------------nav--------------*/
+@media screen and (max-width: 1250px){
 nav {
 	float:right;
 	margin-right:10px;
@@ -39,14 +29,9 @@ nav a{
 nav a:hover {
 	color:darkgrey;
 }
-
-
-/*------------dropdown------------*/
 .drop-down-menus{
 	width:100%;
-	height: 50px;
-	z-index: 1;
-	opacity: 1;
+	z-index: 0;
 	position: absolute;
 	left: 0px;
 	top: 0px;
@@ -56,6 +41,7 @@ nav a:hover {
 	margin-right:auto;
 	background-color: #000000;
     box-shadow: 2px 4px 6px 0px rgba(33, 31, 31, .5);
+    opacity: 0;
 }
 
 .drop-down-menus .dropdowns{
@@ -93,7 +79,7 @@ nav a:hover {
 
 /* Dropdown Button */
 .industriesbtn {
-	height: 40px;
+    height: 40px;
 	display: inline-block;
     background-color: #000000;
     color: white;
@@ -163,7 +149,7 @@ nav a:hover {
 
 /* Dropdown Button */
 .aboutbtn {
-    background-color: #000000;
+	background-color: #000000;
     color: white;
     padding: 0px;
     font-size: 30px;
@@ -319,40 +305,105 @@ nav a:hover {
     background-color: #000000;
 }
 
-/*----------info-body-----------*/
-.info-body{
-	top: 30px;
-	position:relative;
-	display: inline-block;
-}
-.info-body h1#title{
-	color: black;
-}
-
-.info-body p#info{
-	color: black;
-}
-/*------------------------------*/
-
 /*-----------dropdownsmall---------*/
 
 .drop-down-small{
-	z-index: 0;
-	opacity: 0;
-	background-color: white;
+	height: 50px;
+	width:100%;
+	z-index: 1;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	float: center;
+	padding: 0 0 0 0;
+	margin-left:auto;
+	margin-right:auto;
+	background-color: black;
+    box-shadow: 2px 4px 6px 0px rgba(33, 31, 31, .5);
+    opacity: 1;
 }
 
 .drop-down-small-drop-down{
+	position: relative;
+	display: inline-block;
+}
+
+.drop-down-small-drop-down-btn{
+	background-color: #000000;
+    color: white;
+    padding: 0px;
+    font-size: 38px;
+    letter-spacing: 3px;
+    font-family:'AlternateGotNo1D';
+    border: none;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-right: 10px;
+	display: inline-block;
+}
+
+.drop-down-small-drop-down-btn nav a{
+	font-size: 25px;
+}
+
+.drop-down-small-drop-down-btn a:hover{
+	color:darkgrey;
+	transition: 1s;
+}
+
+
+.drop-down-small-drop-down-content{
+	z-index: 1;
+	display:block;
+	opacity: 0;
+	margin-top: 5px;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.drop-down-small-drop-down:hover .drop-down-small-drop-down-content{
+	opacity: 1;
+	transition: .5s;
+}
+
+.drop-down-small-drop-down-content a{
+	color: black;
+    padding: 12px 16px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-family: 'AlternateGotNo1D';
+    text-decoration: none;
+    display: block;
+}
+
+.drop-down-small-drop-down-content a:hover{
+	background-color: #f1f1f1;
+	
+}
+	
+.drop-down-small .drop-down-small-logo{
 	
 }
 
-.drop-down-small-drop-down-content{
-	display:none;
+.drop-down-small .drop-down-small-logo h1#small-title nav{
+	font-size: 58px;
+	float:left;
+	padding: 0px;
+	margin: 0px 0px 0px 10px;
+	font-family:'AlternateGotNo1D';
+	color:white;
 }
 
-
-.drop-down-small-logo{
+.drop-down-small .drop-down-small-logo h1#small-title a{
+	color:white;
+	display:inline-block;
+	text-decoration: none;
+	transition: 1s;
+	padding-left:20px;
 }
+
 
 
 .drop-down-small nav{
@@ -367,20 +418,4 @@ nav a:hover {
 
 /*----------------------*/
 
-.trapezoid {
-	margin: 0;
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	padding-left: 45;
-	display: inline-block;
-	border-bottom: 60px solid black;
-	border-left: 100px solid transparent;
-	border-right: 0px solid transparent;
-	height: 0;
-	width: 120px;
-	transform: rotate(180deg);
-    box-shadow: 0px 10px 24px 0px rgba(0,0,0,0.1);
 }
-/*-----------STATIC-----------*/
-/*----------------------------*/

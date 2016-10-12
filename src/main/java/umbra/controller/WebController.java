@@ -32,32 +32,22 @@ public class WebController extends WebMvcConfigurerAdapter {
 	/*------------------------------------------------*/
 	
 	/*-------------------Companies--------------------*/
-	@RequestMapping(value = "/companies", method = RequestMethod.GET)
+	@RequestMapping(value = "/industries", method = RequestMethod.GET)
 	ModelAndView getCompanies() {
 		ModelAndView modelAndView = new ModelAndView("companies");
 		return modelAndView;
 	}
-	@RequestMapping(value = "/companies/taxes", method = RequestMethod.GET)
+	@RequestMapping(value = "/industries/tax", method = RequestMethod.GET)
 	ModelAndView getCompaniesTaxes() {
 		ModelAndView modelAndView = new ModelAndView("companies-taxes");
 		return modelAndView;
 	}
-	@RequestMapping(value = "/companies/analytics", method = RequestMethod.GET)
-	ModelAndView getCompaniesAnalytics() {
-		ModelAndView modelAndView = new ModelAndView("companies-analytics");
-		return modelAndView;
-	}
-	@RequestMapping(value = "/companies/consulting", method = RequestMethod.GET)
+	@RequestMapping(value = "/industries/consulting", method = RequestMethod.GET)
 	ModelAndView getCompaniesConsulting() {
 		ModelAndView modelAndView = new ModelAndView("companies-consulting");
 		return modelAndView;
 	}
-	@RequestMapping(value = "/companies/marketing", method = RequestMethod.GET)
-	ModelAndView getCompaniesMarketing() {
-		ModelAndView modelAndView = new ModelAndView("companies-marketing");
-		return modelAndView;
-	}
-
+	
 	/*------------------------------------------------*/
 	
 
@@ -67,26 +57,7 @@ public class WebController extends WebMvcConfigurerAdapter {
 		ModelAndView modelAndView = new ModelAndView("about");
 		return modelAndView;
 	}
-	@RequestMapping(value = "/about/taxes", method = RequestMethod.GET)
-	ModelAndView getAboutTaxes() {
-		ModelAndView modelAndView = new ModelAndView("about-taxes");
-		return modelAndView;
-	}
-	@RequestMapping(value = "/about/analytics", method = RequestMethod.GET)
-	ModelAndView getAboutAnalytics() {
-		ModelAndView modelAndView = new ModelAndView("about-analytics");
-		return modelAndView;
-	}
-	@RequestMapping(value = "/about/consulting", method = RequestMethod.GET)
-	ModelAndView getAboutConsulting() {
-		ModelAndView modelAndView = new ModelAndView("about-consulting");
-		return modelAndView;
-	}
-	@RequestMapping(value = "/about/marketing", method = RequestMethod.GET)
-	ModelAndView getAboutMarketing() {
-		ModelAndView modelAndView = new ModelAndView("about-marketing");
-		return modelAndView;
-	}
+	
 
 	/*------------------------------------------------*/
 	
@@ -96,27 +67,7 @@ public class WebController extends WebMvcConfigurerAdapter {
 		ModelAndView modelAndView = new ModelAndView("team");
 		return modelAndView;
 	}
-	@RequestMapping(value = "/team/taxes", method = RequestMethod.GET)
-	ModelAndView getTeamTaxes() {
-		ModelAndView modelAndView = new ModelAndView("team-taxes");
-		return modelAndView;
-	}
-	@RequestMapping(value = "/team/analytics", method = RequestMethod.GET)
-	ModelAndView getTeamAnalytics() {
-		ModelAndView modelAndView = new ModelAndView("team-analytics");
-		return modelAndView;
-	}
-	@RequestMapping(value = "/team/consulting", method = RequestMethod.GET)
-	ModelAndView getTeamConsulting() {
-		ModelAndView modelAndView = new ModelAndView("team-consulting");
-		return modelAndView;
-	}
-	@RequestMapping(value = "/team/marketing", method = RequestMethod.GET)
-	ModelAndView getTeamMarketing() {
-		ModelAndView modelAndView = new ModelAndView("team-marketing");
-		return modelAndView;
-	}
-
+	
 	/*------------------------------------------------*/
 	
 	/*-------------------Contacts---------------------*/

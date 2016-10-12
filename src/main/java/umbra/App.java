@@ -2,14 +2,16 @@ package umbra;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
+
+@SpringBootApplication
 @Configuration
-@EnableAutoConfiguration
 @ComponentScan
-public class App2 {
+public class App {
 
     /**
      * This is a good example of how Spring instantiates
@@ -17,10 +19,6 @@ public class App2 {
      * will be used in this project, where the Autowired
      * annotation is applied.
      */
-    /*@Bean*/
-    /*public UserManager userManager() {
-      ////
-    }*/
 
     /**
      * This is the running main method for tche web application.
@@ -29,8 +27,10 @@ public class App2 {
      * other main methods for testing or debugging purposes, but
      * you cannot put extra main method when building your project.
      */
+	
     public static void main(String[] args) throws Exception {
         // Run Spring Boot
-        SpringApplication.run(App2.class, args);
+    	
+        SpringApplication.run(App.class, args);
     }
 }
