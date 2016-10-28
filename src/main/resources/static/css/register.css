@@ -1,0 +1,123 @@
+@font-face {font-family: "AlternateGotNo1D";
+    src: url("//db.onlinewebfonts.com/t/b4c2d6f691dc323c5db3fd177ea885b5.eot");
+    src: url("//db.onlinewebfonts.com/t/b4c2d6f691dc323c5db3fd177ea885b5.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/b4c2d6f691dc323c5db3fd177ea885b5.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/b4c2d6f691dc323c5db3fd177ea885b5.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/b4c2d6f691dc323c5db3fd177ea885b5.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/b4c2d6f691dc323c5db3fd177ea885b5.svg#AlternateGotNo1D") format("svg");
+}
+
+	/*-------------Register--------------*/
+	
+	.register-container{
+		position:relative;
+		top:250px;
+		height: 500px;
+		width: 650px;
+		border-radius: 5px;
+		background-color: #000000;
+    	box-shadow: 0px 0px 20px 0px rgba(33, 31, 31,.7);
+    	padding: 1px 5px 5px 5px;
+	}
+	
+	.register-container .title{
+		margin: 0px;
+		padding-left: 15px;
+		text-align: left;
+		font-family:'AlternateGotNo1D';
+    	font-size: 40px;
+		color: white;		
+		transform : scale(1,1.5);
+		-webkit-transform:scale(1,1.5); /* Safari and Chrome */
+		-moz-transform:scale(1,1.5); /* Firefox */
+		-ms-transform:scale(1,1.5); /* IE 9+ */
+		-o-transform:scale(1,1.5); /* Opera */
+	}
+	
+	.register-container .register .form-register{
+		padding-left: 15px;
+	}
+	
+	.register-container .register .form-register .email_text{
+		font-family:'AlternateGotNo1D';
+    	font-size: 20px;
+		color: white;
+		text-align: left;
+		line-height: 0%;
+	}
+	
+	.register-container .register .form-register .confirme_text{
+		font-family:'AlternateGotNo1D';
+    	font-size: 20px;
+		color: white;
+		text-align: left;
+		line-height: 0%;
+	}
+	
+	.register-container .register .form-register .password_text{
+		font-family:'AlternateGotNo1D';
+    	font-size: 20px;
+		color: white;
+		text-align: left;
+		line-height: 0%;
+	}
+	
+	.register-container .register .form-register .confirmp_text{
+		font-family:'AlternateGotNo1D';
+    	font-size: 20px;
+		color: white;
+		text-align: left;
+		line-height: 0%;
+	}
+	
+	.register-container .register .form-register .input_email{
+		display: inline-block;
+		float: left;
+		width: 95%;
+	}
+	
+	.register-container .register .form-register .input_confirm_email{
+		display: inline-block;
+		float: left;
+		width: 95%;
+	}
+	
+	.register-container .register .form-register .input_password{
+		display: inline-block;
+		float: left;
+		width: 95%;
+	}
+	
+	.register-container .register .form-register .input_confirm_password{
+		display: inline-block;
+		float: left;
+		width: 95%;
+	}
+	
+	.register .form-register{
+		font-family: 'AlternateGotNo1D';
+		color: white;
+	}
+	
+	.registerbtn{
+		height: 50px;
+		width: 125px;
+		float: right;
+		position: relative;
+		top: 30px;
+		right: 20px;
+	    background-color: #333333;
+	    color: white;
+	    padding: 0px, 16px, 0px, 0px;
+	    font-size: 40px;
+	    letter-spacing: 3px;
+	    font-family:'AlternateGotNo1D';
+	    border: none;
+	    cursor: pointer;
+	    wordwrap: normal;
+	}
+	
+	.registerbtn:hover{
+		transition: 1s;
+		color: darkgrey;	
+	}
