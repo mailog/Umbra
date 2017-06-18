@@ -1,0 +1,123 @@
+@font-face {font-family: "AlternateGotNo1D";
+    src: url("//db.onlinewebfonts.com/t/b4c2d6f691dc323c5db3fd177ea885b5.eot");
+    src: url("//db.onlinewebfonts.com/t/b4c2d6f691dc323c5db3fd177ea885b5.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/b4c2d6f691dc323c5db3fd177ea885b5.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/b4c2d6f691dc323c5db3fd177ea885b5.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/b4c2d6f691dc323c5db3fd177ea885b5.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/b4c2d6f691dc323c5db3fd177ea885b5.svg#AlternateGotNo1D") format("svg");
+}
+
+body {
+        height:100%;
+        background:#fff;
+        color:white;
+        font-family:sans-serif;
+        text-align:center;
+        margin:0px;
+        overflow:auto;
+    }
+    
+h1 {
+        color:red;
+    }
+    
+
+.headerimg { 
+            position:relative;
+            top:70px;}
+
+#maincontent {
+    
+        background:white;
+        width:75%;
+        height:700px;
+        border:1px gray;
+        color:gray;
+        font-family:sans-serif;
+        font-size:20px;
+        padding:10px;
+        margin:0px auto;
+        margin-bottom:50px;
+        overflow:auto;
+        position:relative;
+        top:90px;
+}
+
+/***** top bar ******/
+#top {
+    position:relative;
+    height:80px; 
+    display:block;
+    width:100%;
+    background-color: #3a3a3c;
+    padding: 0px;
+        color:white;
+    border-bottom:10px solid #7dcff5;
+    margin-bottom:25px;
+}
+
+#top a:link {color:white; text-decoration:none;
+transition: color 0.4s linear;}
+#top a:visited {color:white;}
+#top a:hover {color:#b1b1b4;}
+#top a:active {color:#b1b1b4;}
+
+.title {font-family: 'AlternateGotNo1D';
+        font-size:47px;
+        position:absolute;
+        top:10px;
+        padding:0px 0px 0px 80px;
+        letter-spacing:.1px;}
+
+ul.navlinks {position:absolute;
+    top:-8px;
+    color:white;
+    font-size: 30px;
+    right: 50px;
+    font-family: 'AlternateGotNo1D';
+    padding:0px;
+    height:auto;
+   
+}
+
+
+
+li {display:inline;
+    padding: 0px 25px 0px 0px;}
+
+
+/***** FIRST IMAGE HEAD ******/
+
+#firstimghead {
+    height:250px;
+    background-color:#7dcff5;
+    display:block;
+    margin-bottom:25px;
+}
+
+/******* SECOND IMAGE HEAD ********/
+
+#secondimghead {
+    background-image:URL('https://scontent-ord1-1.xx.fbcdn.net/v/t1.0-9/14192578_10202210453218353_1125765783175290989_n.jpg?oh=f0f64705cfe1b7c52f6082d52287165f&oe=58CB37EA');
+    background-size:cover;
+    color:#3a3a3c;
+    font-family:'AlternateGotNo1D';
+    font-size:47px;
+    text-transform:UPPERCASE;
+    padding:40px;
+}
+
+
+/******* FOOTER *******/
+
+.wrapper {
+    min-height: 100%;
+    margin: 0 auto -100px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer {height:100px;max-height:100px;background-color:#3a3a3c;}
+
+.footercontent {padding-top:20px;}
+
+.push {
+    height: 100px;
+}

@@ -13,7 +13,7 @@
 /*------------body--------------*/
 
 body {
-    background-color: #F1F1F1;
+    background-color: #FFFFFF;
 }
 /*------------------------------*/
 
@@ -29,7 +29,7 @@ nav {
 }
 
 nav a{
-	color:white;
+	color:#7ED0F5;
 	display:inline-block;
 	text-decoration: none;
 	transition: 1s;
@@ -54,8 +54,8 @@ nav a:hover {
 	padding: 0 0 0 0;
 	margin-left:auto;
 	margin-right:auto;
-	background-color: #000000;
-    box-shadow: 2px 4px 6px 0px rgba(33, 31, 31, .5);
+	background-color: #414042;
+    box-shadow: 0px 8px rgba(126, 208, 245, 1);
 }
 
 .drop-down-menus .dropdowns{
@@ -65,27 +65,23 @@ nav a:hover {
 }
 
 
-.drop-down-menus h1#title{
+.drop-down-menus #logo{
 	display:inline-block;
 	font-size: 38px;
 	float:left;
-	padding: 0px;
+	padding-top: 10px;
+	padding-left: 10px;
 	margin: 0px 0px 0px 10px;
 	font-family:'AlternateGotNo1D';
-	color:white;
+	color:black;
 	
 }
 
-.drop-down-menus h1#title a{
-	color:white;
-	display:inline-block;
-	text-decoration: none;
-	transition: 1s;
-	padding-left:20px;
-}
-
-.drop-down-menus h1#title a:hover {
-	color:darkgrey;
+.drop-down-menus #logo:hover{
+	transition: .5s;
+	-webkit-filter: invert(50%);
+	filter: invert(50%);
+	
 }
 
 /*------------dropdown-industries------------*/
@@ -95,7 +91,7 @@ nav a:hover {
 .industriesbtn {
 	height: 40px;
 	display: inline-block;
-    background-color: #000000;
+    background-color: #414042;
     color: white;
     padding: 0px;
     font-size: 30px;
@@ -108,7 +104,7 @@ nav a:hover {
 }
 
 .industriesbtn nav a{
-	color: white;
+	color: #7ED0F5;
 }
 
 .industriesbtn a:hover{
@@ -149,8 +145,8 @@ nav a:hover {
 
 /* Show the dropdown menu on hover */
 .industries-dropdown:hover .industries-content{
-    opacity: 1;
-    transition: .5s;
+	opacity: 1;
+	transition: .20s ease-in-out;
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
@@ -163,7 +159,7 @@ nav a:hover {
 
 /* Dropdown Button */
 .aboutbtn {
-    background-color: #000000;
+    background-color: #414042;
     color: white;
     padding: 0px;
     font-size: 30px;
@@ -176,7 +172,7 @@ nav a:hover {
 }
 
 .aboutbtn nav a{
-	color: white;
+	color: #7ED0F5;
 }
 
 .aboutbtn a:hover{
@@ -227,7 +223,7 @@ nav a:hover {
 
 /* Dropdown Button */
 .teambtn {
-    background-color: #000000;
+    background-color: #414042;
     color: white;
     padding: 0px;
     font-size: 30px;
@@ -240,7 +236,7 @@ nav a:hover {
 }
 
 .teambtn nav a{
-	color: white;
+	color: #7ED0F5;
 }
 
 .teambtn a:hover{
@@ -289,7 +285,7 @@ nav a:hover {
 
 /*------------contact------------*/
 .contactsbtn {
-    background-color: #000000;
+    background-color: #414042;
     color: white;
     padding: 0px;
     font-size: 30px;
@@ -301,7 +297,7 @@ nav a:hover {
 }
 
 .contactbtn nav a{
-	color: white;
+	color: #7ED0F5;
 }
 
 .contactbtn a:hover{

@@ -1,16 +1,23 @@
 package umbra;
 
+import java.util.List;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.ImportResource;
+import javax.crypto.SecretKey;
+import Users.UserJDBCTemplate;
+import Users.User;
 
 
 @SpringBootApplication
 @Configuration
 @ComponentScan
+@ImportResource("classpath:Beans.xml")
 public class App {
 
     /**

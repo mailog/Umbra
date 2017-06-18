@@ -1,5 +1,7 @@
+<html>
+
 <head>
-	<title> Team </title>
+	<title> Industries Consulting</title>
 	<script src="//code.jquery.com/jquey-1.11.0.min.js"></script>
 	<script src="/js/login-control.js"></script>
 	<link rel="stylesheet" type="text/css" href="/css/drop-down.css"/>
@@ -8,7 +10,7 @@
 
 <body>
 	<div class = "drop-down-menus">
-		<a th:href = "http://www.umbra-corp.com"><img id = "logo" src="U logo.png" alt="Umbra" style="width:24px;height:30px;"></a>
+		<a href = "http://www.umbra-corp.com"><img id = "logo" src="U logo.png" alt="Umbra" style="width:24px;height:30px;" ></a>
 		<div class = "dropdowns">
 			<div class = "industries-dropdown">
  				<button class="industriesbtn">
